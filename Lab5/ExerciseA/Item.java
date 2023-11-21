@@ -1,0 +1,21 @@
+/*
+* File Name: Item.java
+* Assignment: Lab 5 Exercise A
+* Completed by: Gillian Habermehl 
+* Submission Date: October 30, 2023
+*/
+
+class Item <E extends Number & Comparable<E> >{
+	private E item;
+	public Item(E value) {
+		item = value;
+	}
+	
+	public void setItem(E value){
+		item = value;
+	}
+	
+	public E getItem(){
+		return item;
+	}
+}
